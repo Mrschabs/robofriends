@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.createRoot(<App />, document.getElementById('root'));
 
 
 // If you want to start measuring performance in your app, pass a function
